@@ -48,7 +48,7 @@ Below is a sample JSON configuration that will visit and fill out a login form o
   }]
 ```
 1. The crawler will first perform the visit action, by visiting the website https://form.example.com on your browser
-2. Then it will look for the user and password and pass in the provided values
+2. Then it will look for the username and password and pass in the provided values
 3. After that it will check for success and/or failure criteria, in the case of a failure, the crawler pause for human input.
 
 There are a lot more actions that the crawler can perform.
